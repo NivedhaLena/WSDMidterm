@@ -22,4 +22,8 @@ class PagesController extends Controller
     {
         echo 'ThankYou ',$name;
     }
+    function about()
+    {
+        return view('pages.about');
+    }
 }
